@@ -1,0 +1,477 @@
+<!doctype html>
+<lang="en">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+<link href="./library/aos-master/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="./library/slick/slick-theme.css"/>
+<link rel="stylesheet" href="./library/font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-
+YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+    <!-- Nav bar -->
+    <nav class=" container navbar-expand-lg bg-body-tertiary py-5 header-bg">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./images/Pro Edu.png"alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Course
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">HTML</a></li>
+                    <li><a class="dropdown-item" href="#">CSS</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">Deals</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">Success</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link">Register</a>
+                </li>
+            </ul>
+            <button class="btn btn btn-outline-primary">Register</button>
+            </div>
+        </div>
+        </nav>
+                
+    <!-- slider -->
+        <section class="container slider_area">
+        <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./slider/istockphoto-1331493599-612x612.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider_content">
+            <h1>Get Started Deals</h1>
+            <p>Some representative placeholder content for the first slide.</p>
+            <button class="btn btn-primary">Get Started</button>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./slider/istockphoto-1388642146-612x612.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider_content">
+            <h1>Second slide label</h1>
+            <p>Some representative placeholder content for the second slide.</p>
+            <button class="btn btn-primary">Get Started</button>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="./slider/istockphoto-1432221965-612x612.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block slider_content">
+                <h1>Third slide label</h1>
+                <p>Some representative placeholder content for the third slide.</p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        </section>
+                <!-- course area  -->
+        <section class="container">
+            <div class="course_head">
+            <h1 class="text-center">Discover our Popular Courses</h1>
+            <p class="text-center">It is a long established fact that a reader will be distracted by
+            <br>the readable content of a page when looking at its layout.</p>
+            </div>
+        <br>
+        <br>
+        <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./images/card7.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Fullstack Web Development</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                    <p class="text-primary">Price:20$</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./images/card.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                    <p class="text-primary">Price:20$</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-12 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./images/card2.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Photography Basic Rules</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                    <p class="text-primary">Price:20$</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./images/caed3.jpeg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Motion Graphics</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                    <p class="text-primary">Price:20$</p>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="./images/card4.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Motion Graphics</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                    <p class="text-primary">Price:20$</p>
+                </div>
+                </div>
+         </div>
+        </div>
+    </div>
+    <div class="col-12 col-md-6">
+        <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+            <img src="./images/card6.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Motion Graphics</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card</p>
+                <p class="text-primary">Price:20$</p>
+            </div>
+            </div>
+        </div>
+        </div>
+            </div>
+    <div class="courses_btn my-5">
+        <button class="btn btn-primary" data-aos="fade-up"
+        data-aos-anchor-placement="top-bottom">See more courses</button>
+    </div>
+</section>
+    </section>
+
+    <!-- Another section -->
+
+    <section class="row container m-auto justify-content-between align-items-center mt-5 gap-5" style="background: rgb(236, 242, 244);">
+    <div class="col-12 col-md-6">
+        <img src="./images/only card.jpg" class="object-fit-cover img-fluid" style="width: 600px; height: 750px;" alt="">
+        </div>
+        <div class="col-12 col-md-6 p-5" style="width: 600px;">
+        <h2 class="fs-2 fw-bold text-dark">Explore The Elearning Institute</h2>
+        <p class="text-secondary">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, injected humour, or randomised words which don't look even slightly believable. If you are going to usa a passage of Lorem Ipsum, you need to be sure.</p>
+        <br>
+        <p class="text-secondary">Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined.</p>
+        <div class="d-flex">
+        <div>
+            <h3 class="fs-2">3.2K</h3>
+            <p class="text-secondary me-4 fw-bold">Online Course</p>
+            </div>
+            <div>
+            <h3 class="fs-2">600+</h3>
+            <p class="text-secondary me-4 fw-bold">Expert member</p>
+            </div>
+            <div>
+            <h3 class="fs-2">1K+</h3>
+            <p class="text-secondary me-4 fw-bold">Rating & Review</p>
+        </div>
+        <div>
+        <h3 class="fs-2">12+</h3>
+        <p class="text-secondary me-4 fw-bold">Teachers & Mentor</p>
+        </div>
+        
+    </div>
+    <button class="btn btn-primary"> Read More </button>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+     <!-- Another Section  -->
+
+    <section class="register pt-5 pb-5 container">
+    
+    <div class="container">
+        <div class="register_flex">
+        <div class="left_text">
+        <h1>Ready to join?</h1>
+        <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout</p>
+        </div>
+        <button class="btn btn-primary center_btn ">Register now</button>
+        </div>
+        </div>
+        </section>
+        <br>
+        <br>
+                                            <!-- Another Section  -->
+    <section class="container">
+    <div class="introduce_header  container">
+        <h1>Meet Our Successfull <br> Students</h1>
+        <p>It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout</p>
+        </div>
+        <!-- card  -->
+
+<div class="row" data-aos="fade-up"
+data-aos-duration="3000">
+    <div class="col-md-3">
+    <div class="card" style="width: 18rem;">
+    <img src="./images/student2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 style="font-size: 15px;">Awlad Hossain</h4>
+        <p class="card-text">UI\UX Designer</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="card" style="width: 18rem;">
+    <img src="./images/student4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 style="font-size: 15px;">Nishi Akter</h4>
+        <p class="card-text">Web Developer</p>
+        </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="card" style="width: 18rem; height: 360px;">
+    <img src="./images/student7.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h4 style="font-size: 15px;">Imran Hossain</h4>
+        <p class="card-text">Graphic Designer</p>
+    </div>
+    </div>
+    </div>
+    <div class="col-md-3">
+    <div class="card" style="width: 18rem; height: 360px;">
+        <img src="./images/student9.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h4 style="font-size: 15px;">Jannatul Islam</h4>
+        <p class="card-text">Motion Designer</p>
+        </div>
+    </div>
+    </div>
+</div>
+<br>
+<button class="btn btn-primary m-auto justify-content-center d-flex">View All</button>
+    </section>
+            <!-- Another Section  -->
+    <section class="container reveiw">
+    <div class="feedback_title p-5" style="text-align: center;">
+        <h1 data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">Some Students Feedback</h1>
+        <p class="card-text" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout</p>
+        </div>
+            <!-- slider part  -->
+            <section class="container fistr_area">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+        <div class="review_slider">
+        <div class="slider_flex gap-5">
+        <div class="slider_img"><img src="./images/Group 4882.png" alt=""></div>
+        <div class="slider_img"><img src="./images/Group 4883.png" alt=""></div>
+        <div class="slider_img"><img src="" alt=""></div>
+        <div class="slider_img"><img src="" alt=""></div>
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+        </section>
+        </section>
+
+            <!-- Another Section  -->
+    <section class="container">
+    <div class="qa_head">
+        <h1 style="text-align: center;">Frequently Asked Questions</h1>
+        <p style="text-align: center; margin: auto; color: black; padding-bottom: 50px;">It is a long established fact that a reader will be distracted by the <br> readable content of a page when looking at its layout.</p>
+        </div>
+
+
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <strong>What other services are you compatible with?</strong>
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+            <small>This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within theaccordion-body though the transition does limit overflow.</small>
+            </div>
+            </div>
+            </div>
+            <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <strong>I have a technical i need resolved, who do i email?</strong>
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+            <div class="accordion-body">
+            <small>This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within theaccordion-body though the transition does limit overflow.</small>
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <strong>What other services are you compatible with?</strong>
+        </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            <small>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within theaccordion-bodythough the transition does limit overflow.</small>
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+            <strong>What other services are you compatible with?</strong>
+        </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+        <div class="accordion-body">
+            <small>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body though the transition does limit overflow.</small>
+        </div>
+        </div>
+    </div>
+    </div>
+    </section>
+        <!-- Another section  -->
+    <section class="container" style="padding-top: 60px;">
+        <div class="trusted_title">
+        <h2 style="text-align: center;">Trusted by over 800+ companies</h2>
+        </div>
+    <br>
+    <br>
+        <div data-aos="fade-right" class="trusted_company img-fluid object-fit-cover flex-wrap flex-ld-nowrap " style="padding-bottom: 60px;">
+            <img src="./images/logo2.jpg" alt="">
+            <img src="./images/logo3.jpg" alt="">
+            <img src="./images/logo4.jpg" alt="">
+            <img src="./images/Logo-5.jpg" alt="">
+            <img src="./images/logo6.jpg" alt="">
+            </div>
+    
+    </section>
+    <section class="container">
+    <footer style="padding-top:50px; padding-bottom: 40px;">
+        <h2 style="text-align: center; color: black;">Figma Pro Edu</h2>
+        <div class="last_text" style="text-align: center;">
+        <p style="color:black;">Office 41, Zawaya Buildin, Ghala Muscat,<br>
+        Sultanate of Oman <br> Privacy Policy  ।    Terms of use</p>
+        <div class="footer-img">
+            <img src="./images/Group 10112.png" alt="">
+            </div>
+        </div>
+        </footer>
+    </section>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./library/slick/slick.min.js"></script>
+
+
+
+<script src="./library/bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="./library/aos-master/dist/aos.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$('.slider_flex').slick({
+accessibility:true,
+autoplay: true,
+arrows:true,
+dots: true,
+infinite: true,
+speed: 300,
+slidesToShow: 2,
+adaptiveHeight: true
+});
+});
+</script>
+<script>
+AOS.init();
+</script>
+</body>
+</html>

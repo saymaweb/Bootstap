@@ -1,0 +1,232 @@
+/* slider_area */
+    .theme-secondary{
+    background: whitesmoke!important;
+    color: #777777 !important;
+    }
+    .nav-link{
+    color: #777777 !important;
+    font-size: 18px;
+    font-family: "poppins";
+    font-weight: 400;
+    padding: 0 25px !important;
+    }
+    .container-fluid{
+        align-items: center;
+        display: flex;
+    }
+    
+    .slider_area{
+        height:700px !important ;
+    }
+    .carousel-item{
+    height: 600px ;
+    }
+    .carousel-item img{
+    height: 100%;
+    width: 100%;
+    }
+    .slider_content{
+        background: #00000087;
+        height: 100%;
+        width: 100%;
+        justify-content: center !important;
+        display: flex !important;
+        align-items: center !important;
+        flex-direction: column !important;
+    }                               
+    .carousel-caption{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding-top: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .slider_content h2{
+        font-size: 50px;
+    }
+    .slider_area{
+        padding-bottom: 90px;
+    }
+    
+    /* course area  */
+    .course_head h1{
+        font-family: "poppins";
+        font-weight: 600;
+        font-size: 45px;
+        margin: 0 auto;
+    }
+    .course_head p{
+        color: black;
+        margin: 0 auto;
+    }
+    /* card area  */
+    .img-fluid {
+        max-width: 100%;
+        height: 100%;
+    
+    }
+    .img-fluid img{
+    object-fit: cover;
+    }
+    
+    .courses_btn{
+        display: flex;
+        justify-content: center;
+    }
+    .element h1{
+        font-size: 26px;
+    }
+    .element p{
+        font-size: 16px;
+    }
+    .register_flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .register{
+        background-color: #289BDE;
+    }
+    .center_btn{
+        background-color: #fff;
+        height: fit-content;
+        color: #289BDE;
+    }
+    .left_text h1,p{
+        color: #fff;
+    }
+    .register_flex{
+        align-items: center;
+        margin: auto;
+    }
+    .card-title{
+        color: black;
+    }
+    .card-text{
+        color: black;
+    }
+    .element p{
+        color: black;
+    }
+    .introduce_header p{
+        color: black;
+    }
+    .card_flex{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card-body h3{
+        font-size: 15px;
+        font-style: bold;
+        font-weight: 600px;
+    }
+    .card-body h6{
+        font-size: 11px;
+        font-style: bold;
+        font-weight: 600px;
+    }
+    .card img{
+        height: 100%;
+        width: 100%;
+        .card img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        object-position: left;
+        }
+    }
+    .introduce{
+        padding-bottom: 16px;
+    }
+    .card{
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+    .fa-star{
+        color: goldenrod;
+    }
+    
+    .all_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .another{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid grey;
+        margin: 5px;
+    }
+    .card_text_bottom{
+        color: black;
+        width: 548px;
+        text-align: center;
+    }
+    .all_text{
+        width: 648px;
+    }
+    .all_tittle{
+        display: flex;
+        justify-content: space-between;
+    }
+    .border{
+        border: 2px solid grey;
+    }
+    .feedback_img{
+        height: 42px;
+        width: 42px;
+    }
+    .feedback_container{
+        display: flex;
+    }
+    .profile_text h1{
+        font-size: 18px;
+        font-family: "poppins";
+        font-weight: 600;
+    }
+    .profile_text p{
+        font-family: "poppins";
+        font-weight: 400;
+        font-size: 16px;
+        color: black;
+        padding-bottom: 15px;
+    }
+    .reveiw{
+        padding-bottom: 55px;
+    }
+    .trusted_company img{
+        height: 120px;
+        width: 130px;
+    }
+    .trusted_company{
+        justify-content: space-evenly;
+        margin: auto;
+        align-items: center;
+        display: flex;
+    }
+    
+    .slider_flex{
+        display: flex;
+        margin:0 auto;
+    }
+    .slider_img img{
+        width: 590px;
+    
+    }
+     /* animations duration  */
+    [data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+        transition-duration: 1.4s;
+    }
+         /* arrows color  */
+        .slick-prev:before, .slick-next:before {
+            font-family: 'slick';
+            font-size: 25px;
+            line-height: 1;
+            opacity: .75;
+            color: black;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+    
+        }                               
