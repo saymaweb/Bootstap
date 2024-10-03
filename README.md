@@ -3,4 +3,4 @@ Figma tasks are much less time-consuming to make in Bustap and can be designed 
 # Tecnology
 # Html
 # css
-live link:https://github.com/saymaweb/Bootstap/settings/pages
+live link: https://saymaweb.github.io/Bootstap/
